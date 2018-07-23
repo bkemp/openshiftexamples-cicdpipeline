@@ -13,7 +13,7 @@ spec:
         // https://github.com/openshift/origin/blob/master/examples/jenkins/pipeline/nodejs-sample-pipeline.yaml
         //----------------------------------------------------------------------
 
-        def TEMPLATEPATH = 'https://raw.githubusercontent.com/openshift/nodejs-ex/master/openshift/templates/nodejs-mongodb.json'
+        def TEMPLATEPATH = 'https://raw.githubusercontent.com/bkemp/nodejs-ex/master/openshift/templates/nodejs-mongodb.json'
         def TEMPLATENAME = 'nodejs-mongodb-example'
 
         // NOTE, the "pipeline" directive/closure from the declarative pipeline syntax needs to include, or be nested outside,
